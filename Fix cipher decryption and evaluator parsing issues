@@ -1,0 +1,18 @@
+## Sambhav's Contribution
+
+I worked on debugging and improving both parts after testing the code.
+
+In `cipher.py`, I fixed the uppercase range so the first condition correctly
+uses A-M. I also worked on the decryption part so the shifts can be reversed
+properly. I checked the number shifting with modulo 10 and worked with
+`encrypt_file()`, `decrypt_file()` and `verify_files()` to make sure the file
+encryption and decryption process works correctly.
+
+In `evaluator.py`, I worked on some problems I found while testing the parser.
+I fixed unary negative handling and the power operation so expressions like
+`2 ^ 3 ^ 2` and `2 ^ -2` are parsed correctly. I also worked on implicit
+multiplication for expressions like `2(3 + 4)` and `(2)3`, and checked error
+cases such as invalid characters and division by zero.
+
+After making these changes, I tested the programs with different inputs to
+check that the changes were working as expected.
