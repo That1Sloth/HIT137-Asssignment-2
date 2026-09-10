@@ -1,5 +1,5 @@
 # Assignment 2 - Question 2
-
+# Declan Rankin's Contribution
 def format_number(value) -> str:
     if isinstance(value, int):
         return str(value)
